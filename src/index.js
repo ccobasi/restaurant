@@ -1,6 +1,7 @@
 import Navigation from './nav';
 import initPage from './initial';
 import homePage from './home';
+import contactPage from './contact';
 import './main.css';
 
 function html() {
@@ -16,6 +17,7 @@ function html() {
 
   const mainContent = document.querySelector('.main-content');
   mainContent.append(homePage());
+  mainContent.append(contactPage());
   mainContent.append(html());
 
 const nav = new Navigation();
