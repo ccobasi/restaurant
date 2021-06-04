@@ -2,6 +2,7 @@ import Navigation from './nav';
 import initPage from './initial';
 import homePage from './home';
 import contactPage from './contact';
+import menuPage from './menu'
 import './main.css';
 
 function html() {
@@ -12,13 +13,21 @@ function html() {
     document.getElementsByTagName('head')[0].appendChild(link);
   }
   
-  const content = document.querySelector('.content');
-  content.append(initPage());
+const content = document.querySelector('.content');
+content.append(initPage());
 
-  const mainContent = document.querySelector('.main-content');
-  mainContent.append(homePage());
-  mainContent.append(contactPage());
-  mainContent.append(html());
+const mainContent = document.querySelector('.main-content');
+mainContent.append(homePage());
+mainContent.append(html());
+
+
+const mePage = document.querySelector('.menu-page');
+mePage.append(menuPage());
+mePage.append(html());
+
+const conPage = document.querySelector('.contact-page');
+conPage.append(contactPage());
+conPage.append(html());
 
 const nav = new Navigation();
 const pages = document.querySelectorAll('.pages');
@@ -45,3 +54,18 @@ logo.addEventListener('click', () => {
   hidePages();
   home.classList.remove('hide');
 });
+
+nav.onClick((e) => {
+  if (e.target.id === 'home') {
+    const home = document.querySelector('.home-page');
+    hidePages();
+    home.classList.remove('hide');
+  }
+
+  if (e.target.id === 'contact') {
+    const contact = document.querySelector('.contact-page');
+    hidePages();
+    contact.classList.remove('hide');
+  }
+});
+

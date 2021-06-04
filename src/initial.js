@@ -4,7 +4,7 @@ export default function initPage() {
   
     const html = `
   
-      
+    
       <ul class="navbar">
           <li class="link" id="home">Home</li>      
           <li class="link" id="about">About</li>     

@@ -3,6 +3,7 @@ export default function homePage() {
     homeDiv.className = 'pages home-page';
   
     const html = `
+    
       <div class="intro">
       <h1>The Best Noodle Spot in Town</h1>
       <button type="button" class="cta-btn">Check our menu</button>

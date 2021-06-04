@@ -1,6 +1,6 @@
 export default function menuPage() {
     const homeDiv = document.createElement('DIV');
-    homeDiv.className = 'pages home-page';
+    homeDiv.className = 'pages menu-page';
   
     const html = `
       <div class="intro">
