@@ -1,7 +1,7 @@
 import Navigation from './nav';
 import initPage from './initial';
-import homePage from './home';
-import contactPage from './contact';
+// import homePage from './home';
+// import contactPage from './contact';
 import menuPage from './menu'
 import './main.css';
 
@@ -17,7 +17,7 @@ const content = document.querySelector('.content');
 content.append(initPage());
 
 const mainContent = document.querySelector('.main-content');
-mainContent.append(homePage());
+mainContent.append(menuPage());
 mainContent.append(html());
 
 
