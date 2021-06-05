@@ -4,36 +4,36 @@ export default function menuPage() {
   
     const html = `
            <div class="menu-item">
-           <img src='/src/asset/chicken.jpg' alt="Red Burger">
+           <img src='/src/asset/chicken.jpg' alt="Chicken Noodles">
            <div class="item-details">
-               <p class="item-name">Red Burger</p>
-               <p class="item-price">$5</p>
+               <p class="item-name">Chicken Noodles</p>
+               <p class="item-price">#950</p>
            </div>
           </div>
-          
+
               <div class="menu-item">
-                  <img src='/src/asset/beef.jpg' alt="Red Burger">
+                  <img src='/src/asset/beef.jpg' alt="Beef Noodle">
                   <div class="item-details">
-                      <p class="item-name">Red Burger</p>
-                      <p class="item-price">$5</p>
+                      <p class="item-name">Beef Noodle</p>
+                      <p class="item-price">#950</p>
                   </div>
               </div>
               <div class="menu-item">
-                  <img src='/src/asset/veggie.jpg' alt="Very Thicc Burger">
+                  <img src='/src/asset/veggie.jpg' alt="Veggie Noodles">
                   <div class="item-details">
-                      <p class="item-name">Very Thicc Burger</p>
-                      <p class="item-price">$7</p>
+                      <p class="item-name">Veggie Noodles</p>
+                      <p class="item-price">#1100</p>
                   </div>
               </div>
               <div class="menu-item">
-                  <img src='/src/asset/Spicy.jpg'; alt="Thicc Fries">
+                  <img src='/src/asset/Spicy.jpg'; alt="Spicy Noodles">
                   <div class="item-details">
-                      <p class="item-name">Thicc Fries</p>
-                      <p class="item-price">$3</p>
+                      <p class="item-name">Spicy Noodles</p>
+                      <p class="item-price">#600</p>
                   </div>
               </div>
           </div>
-          <p class="add-ons">With Softdrinks Add $2</p>
+          <p class="add-ons">With Softdrinks Add #400</p>
       `;
   
     menuDiv.insertAdjacentHTML('beforeend', html);

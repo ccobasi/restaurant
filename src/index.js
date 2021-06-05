@@ -1,8 +1,8 @@
 import Navigation from './nav';
 import initPage from './initial';
 // import homePage from './home';
-// import contactPage from './contact';
-import menuPage from './menu'
+import contactPage from './contact';
+// import menuPage from './menu'
 import './main.css';
 
 function html() {
@@ -17,7 +17,7 @@ const content = document.querySelector('.content');
 content.append(initPage());
 
 const mainContent = document.querySelector('.main-content');
-mainContent.append(menuPage());
+mainContent.append(contactPage());
 mainContent.append(html());
 
 
