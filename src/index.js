@@ -1,8 +1,8 @@
 import Navigation from './nav';
 import initPage from './initial';
-// import homePage from './home';
+import homePage from './home';
 import contactPage from './contact';
-// import menuPage from './menu'
+import menuPage from './menu'
 import './main.css';
 
 function html() {

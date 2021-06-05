@@ -6,8 +6,7 @@ export default function initPage() {
   
     
       <ul class="navbar">
-          <li class="link" id="home">Home</li>      
-          <li class="link" id="about">About</li>     
+          <li class="link" id="home">Home</li>          
           <li class="link" id="menu">Menu</li>
           <li class="link" id="contact">Contact</li>    
       </ul>
