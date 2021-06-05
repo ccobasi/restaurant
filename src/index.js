@@ -67,5 +67,11 @@ nav.onClick((e) => {
     hidePages();
     contact.classList.remove('hide');
   }
+
+  if (e.target.id === 'menu') {
+    const menu = document.querySelector('.menu-page');
+    hidePages();
+    contact.classList.remove('hide');
+  }
 });
 
