@@ -2,8 +2,8 @@ import Navigation from './nav';
 import initPage from './initial';
 import homePage from './home';
 import contactPage from './contact';
-import menuPage from './menu'
-import aboutPage from './about'
+import menuPage from './menu';
+import aboutPage from './about';
 import './main.css';
 
 function html() {
@@ -12,7 +12,7 @@ function html() {
   link.type = 'image/x-icon';
   link.rel = 'shortcut icon';
   document.getElementsByTagName('head')[0].appendChild(link);
-  }
+}
 
 const content = document.querySelector('.content');
 content.append(initPage());
@@ -66,7 +66,12 @@ nav.onClick((e) => {
   if (e.target.id === 'menu') {
     const menu = document.querySelector('.menu-page');
     hidePages();
-    contact.classList.remove('hide');
+    menu.classList.remove('hide');
+  }
+
+  if (e.target.id === 'about') {
+    const about = document.querySelector('.menu-page');
+    hidePages();
+    about.classList.remove('hide');
   }
 });
-

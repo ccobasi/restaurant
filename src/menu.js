@@ -1,8 +1,8 @@
 export default function menuPage() {
-    const menuDiv = document.createElement('DIV');
-    menuDiv.className = 'pages menu-page';
-  
-    const html = `
+  const menuDiv = document.createElement('DIV');
+  menuDiv.className = 'pages menu-page';
+
+  const html = `
            <div class="menu-item">
            <img src='/src/asset/chicken.jpg' alt="Chicken Noodles">
            <div class="item-details">
@@ -35,8 +35,8 @@ export default function menuPage() {
           </div>
           <p class="add-ons">With Softdrinks Add #400</p>
       `;
-  
-    menuDiv.insertAdjacentHTML('beforeend', html);
-  
-    return menuDiv;
-  }
+
+  menuDiv.insertAdjacentHTML('beforeend', html);
+
+  return menuDiv;
+}
