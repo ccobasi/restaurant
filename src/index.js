@@ -19,22 +19,11 @@ const content = document.querySelector('.content');
 content.append(initPage());
 
 const mainContent = document.querySelector('.main-content');
-// const mainContent = document.getElementById('content');
-{/* <div class="intro">
-<h1>The Best Noodle Spot in Town</h1>
-<button type="button" class="cta-btn">Check our menu</button>
-</div>`; */}
 mainContent.append(homePage());
-// mainContent.append(menuPage());
+mainContent.append(aboutPage());
+mainContent.append(menuPage());
+mainContent.append(contactPage());
 mainContent.append(html());
-
-const menuContent = document.querySelector('.menu-page');
-menuContent.append(menuPage());
-menuContent.append(html());
-
-const contactContent = document.querySelector('.contact-page');
-contactContent.append(contactPage());
-contactContent.append(html());
 
 const nav = new Navigation();
 const pages = document.querySelectorAll('.pages');
@@ -53,6 +42,13 @@ ctaBtn.addEventListener('click', () => {
   const menu = document.querySelector('.menu-page');
   hidePages();
   menu.classList.remove('hide');
+});
+
+const logo = document.querySelector('.logo');
+logo.addEventListener('click', () => {
+  const home = document.querySelector('.home-page');
+  hidePages();
+  home.classList.remove('hide');
 });
 
 nav.onClick((e) => {
