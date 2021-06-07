@@ -14,7 +14,6 @@ function html() {
   document.getElementsByTagName('head')[0].appendChild(link);
   }
 
-// const mainContent = document.getElementById('content');
 const content = document.querySelector('.content');
 content.append(initPage());
 
