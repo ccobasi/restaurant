@@ -1,4 +1,5 @@
-export default function contactPage() {
+// eslint-disable-next-line import/prefer-default-export
+export const contactPage = () => {
   const contactDiv = document.createElement('DIV');
   contactDiv.className = 'pages contact-page';
 
@@ -19,4 +20,4 @@ export default function contactPage() {
   contactDiv.insertAdjacentHTML('beforeend', html);
 
   return contactDiv;
-}
+};

@@ -1,4 +1,5 @@
-export default function menuPage() {
+// eslint-disable-next-line import/prefer-default-export
+export const menuPage = () => {
   const menuDiv = document.createElement('DIV');
   menuDiv.className = 'pages menu-page';
 
@@ -39,4 +40,4 @@ export default function menuPage() {
   menuDiv.insertAdjacentHTML('beforeend', html);
 
   return menuDiv;
-}
+};

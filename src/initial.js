@@ -1,4 +1,5 @@
-export default function initPage() {
+// eslint-disable-next-line import/prefer-default-export
+export const initPage = () => {
   const container = document.createElement('DIV');
   container.className = 'container';
 
@@ -15,4 +16,4 @@ export default function initPage() {
       `;
   container.insertAdjacentHTML('beforeend', html);
   return container;
-}
+};

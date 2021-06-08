@@ -1,4 +1,5 @@
-export default function homePage() {
+// eslint-disable-next-line import/prefer-default-export
+export const homePage = () => {
   const homeDiv = document.createElement('DIV');
   homeDiv.className = 'pages home-page';
 
@@ -12,4 +13,4 @@ export default function homePage() {
   homeDiv.insertAdjacentHTML('beforeend', html);
 
   return homeDiv;
-}
+};

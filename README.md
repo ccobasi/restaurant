@@ -19,13 +19,20 @@
  - Images
  - Linters
 
- ## How It work 
-  - First Open Your terminal and paste : git clone git@github com:ccobasi/restaurant.git.
+ ## Getting Started
 
-  - Thene cd to the Folder && Open it in your Texteditor.
+To get a local copy up and running follow these simple example steps.
 
-  - To Make the website fully working make sure to install the webpack
-  and run the folowing command if yoy don't have it.
+### Prerequisites
+
+- npm
+- webpack
+
+### Setup
+- Clone the repository.
+- Run `npm install webpack webpack-cli --save-dev ` to install dependencies.
+- Run `npm start` to start the development server.
+- Your browser should open. Click on the `dist` folder to see the app.
 
 
   ## Author
