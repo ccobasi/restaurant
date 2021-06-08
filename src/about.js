@@ -1,4 +1,5 @@
-export default function aboutPage() {
+// eslint-disable-next-line import/prefer-default-export
+export const aboutPage = () => {
   const aboutDiv = document.createElement('DIV');
   aboutDiv.className = 'pages about-page';
 
@@ -15,4 +16,4 @@ export default function aboutPage() {
   aboutDiv.insertAdjacentHTML('beforeend', html);
 
   return aboutDiv;
-}
+};
