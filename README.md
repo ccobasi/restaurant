@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 - Clone the repository.
-- Run `npm install webpack webpack-cli --save-dev ` to install dependencies.
+- Run `npm install ` to install dependencies.
 - Run `npm start` to start the development server.
 - Your browser should open. Click on the `dist` folder to see the app.
 
