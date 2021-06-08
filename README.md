@@ -22,10 +22,11 @@
  ## How It work 
   - First Open Your terminal and paste : git clone git@github com:ccobasi/restaurant.git.
 
-  - Thene cd to the Folder && Open it in your Texteditor.
+  - Then cd to the Folder and Open it in your text editor.
 
   - To Make the website fully working make sure to install the webpack
-  and run the folowing command if yoy don't have it.
+  and run the folowing command if you don't have it.
+  - npm install webpack webpack-cli --save-dev
 
 
   ## Author
